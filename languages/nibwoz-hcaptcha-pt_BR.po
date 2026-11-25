@@ -1,0 +1,941 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NIBWOZ hCaptcha 1.3.4\n"
+"Report-Msgid-Bugs-To: falecom@nibwoz.com\n"
+"POT-Creation-Date: 2026-11-24 03:19+0000\n"
+"PO-Revision-Date: 2026-11-24 03:19+0000\n"
+"Language-Team: NIBWOZ\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: nibwoz-hcaptcha\n"
+
+#: includes/admin.php:386 includes/admin.php:511
+#, php-format
+msgid "%1$d of %2$d active"
+msgstr "%1$d de %2$d ativos"
+
+#: includes/admin.php:284 includes/admin.php:530
+msgid "About"
+msgstr "Sobre"
+
+#: includes/admin.php:539
+msgid "About NIBWOZ"
+msgstr "Sobre a NIBWOZ"
+
+#: includes/admin.php:539
+msgid "About the company"
+msgstr "Conheça a empresa"
+
+#: includes/admin.php:30 includes/admin.php:168 includes/admin.php:188 includes/admin.php:197 includes/admin.php:352
+msgid "Access denied."
+msgstr "Acesso negado."
+
+#: includes/admin.php:279 includes/admin.php:384 includes/admin.php:416 includes/admin.php:509
+msgid "Access keys"
+msgstr "Chaves de acesso"
+
+#: includes/admin.php:477
+msgid "Add IP to whitelist"
+msgstr "Adicionar IP à whitelist"
+
+#: includes/admin.php:234
+msgid "Alignment"
+msgstr "Alinhamento"
+
+#: includes/admin.php:390 includes/admin.php:512
+msgid "Allow"
+msgstr "Permitir"
+
+#: includes/admin.php:435
+msgid "Allows requiring the challenge in contexts integrated by custom adapters."
+msgstr "Permite exigir o desafio em contextos integrados por adaptadores próprios."
+
+#: includes/admin.php:479
+msgid "Already in the whitelist"
+msgstr "Já está na whitelist"
+
+#: includes/admin.php:281 includes/admin.php:439 includes/admin.php:441
+msgid "Appearance"
+msgstr "Aparência"
+
+#: includes/admin.php:227
+msgid "Automatic"
+msgstr "Automático"
+
+#: includes/admin.php:450
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: includes/admin.php:500
+msgid "Below the requirements"
+msgstr "Abaixo dos requisitos"
+
+#: includes/admin.php:390 includes/admin.php:512
+msgid "Block"
+msgstr "Bloquear"
+
+#: includes/admin.php:237
+msgid "Block submissions when hCaptcha verification fails"
+msgstr "Bloquear envios quando a verificação com hCaptcha falhar"
+
+#: includes/admin.php:491
+msgid "Blocks submission if hCaptcha does not respond or returns invalid data."
+msgstr "Bloqueia o envio se o hCaptcha não responder ou retornar dados inválidos."
+
+#: includes/admin.php:225
+msgid "Center"
+msgstr "Centro"
+
+#: includes/admin.php:457
+msgid "Change only size, scale or alignment when a form needs to differ from the general default. Other settings remain global."
+msgstr "Altere somente tamanho, escala ou alinhamento quando um formulário precisar fugir do padrão geral. Os demais ajustes continuam globais."
+
+#: includes/admin.php:474
+msgid "Check the detected IP before granting an exemption. Dynamic IPs can change."
+msgstr "Confira o IP reconhecido antes de conceder uma isenção. IPs dinâmicos podem mudar."
+
+#: includes/admin.php:424
+msgid "Choose the native forms where the challenge is required."
+msgstr "Escolha os formulários nativos em que o desafio será exigido."
+
+#: includes/admin.php:406 includes/admin.php:517
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: includes/admin.php:406
+msgid "Cloudflare not trusted"
+msgstr "Cloudflare não confiável"
+
+#: includes/admin.php:406
+msgid "Cloudflare trusted"
+msgstr "Cloudflare confiável"
+
+#: includes/admin.php:334
+msgid "Cloudflare was identified and the server already passes the real visitor IP to WordPress."
+msgstr "A Cloudflare foi identificada e o servidor já entregou o IP real do visitante ao WordPress."
+
+#: includes/admin.php:224
+msgid "Compact"
+msgstr "Compacto"
+
+#: includes/admin.php:534
+msgid "Company"
+msgstr "Empresa"
+
+#: includes/admin.php:500
+msgid "Compatible"
+msgstr "Compatível"
+
+msgid "Configurable hCaptcha protection for native WordPress and classic WooCommerce forms."
+msgstr "Proteção hCaptcha configurável para formulários nativos do WordPress e WooCommerce clássico."
+
+#: includes/admin.php:381
+msgid "Configuration summary"
+msgstr "Resumo da configuração"
+
+#: includes/admin.php:439
+msgid "Configure the widget presentation, behavior and per-form adjustments."
+msgstr "Configure a apresentação, o funcionamento do widget e os ajustes específicos de cada formulário."
+
+#: includes/admin.php:384 includes/admin.php:509
+msgid "Configured"
+msgstr "Configuradas"
+
+#: includes/admin.php:171
+msgid "Confirm the restore before continuing."
+msgstr "Confirme a restauração antes de continuar."
+
+#: includes/admin.php:346
+msgid "Confirm the server configuration before enabling trust."
+msgstr "Confirme a configuração do servidor antes de ativar a confiança."
+
+#: includes/admin.php:473
+msgid "Control exemptions, traffic origin and failure handling."
+msgstr "Controle isenções, origem do tráfego e resposta a falhas."
+
+#: includes/admin.php:322
+msgid "Could not identify a valid IP. The whitelist was not changed."
+msgstr "Não foi possível identificar um IP válido. A whitelist não foi alterada."
+
+#: includes/admin.php:323
+msgid "Could not save the IP to the whitelist."
+msgstr "Não foi possível salvar o IP na whitelist."
+
+#: includes/admin.php:47
+msgid "Could not show the saved key. Reload the page and try again."
+msgstr "Não foi possível mostrar a chave salva. Recarregue a página e tente novamente."
+
+#: includes/verify.php:43
+msgid "Could not validate hCaptcha. Complete the verification and try again."
+msgstr "Não foi possível validar o hCaptcha. Faça a verificação e tente novamente."
+
+#: includes/admin.php:424
+msgid "Coverage"
+msgstr "Cobertura"
+
+#: includes/admin.php:416
+msgid "Credentials"
+msgstr "Credenciais"
+
+#: includes/admin.php:320
+msgid "Current IP added to the whitelist."
+msgstr "IP atual adicionado à whitelist."
+
+#: includes/admin.php:519
+msgid "Current IP exempt"
+msgstr "IP atual isento"
+
+#: includes/admin.php:519
+msgid "Current IP not exempt"
+msgstr "IP atual não isento"
+
+#: includes/admin.php:475 includes/admin.php:518
+msgid "Current detected IP"
+msgstr "IP atual detectado"
+
+#: includes/admin.php:434
+msgid "Custom adapters"
+msgstr "Adaptadores próprios"
+
+#: includes/admin.php:223
+msgid "Dark"
+msgstr "Escuro"
+
+#: nibwoz-hcaptcha.php:34
+msgid "Deactivate the previous NIBWOZ hCaptcha MU plugin and other hCaptcha integrations before activating."
+msgstr "Desative o MU Plugin NIBWOZ hCaptcha anterior e outras integrações hCaptcha antes da ativação."
+
+#: includes/admin.php:543
+msgid "Delete all data on uninstall"
+msgstr "Apagar todos os dados ao desinstalar"
+
+#: includes/admin.php:331 includes/admin.php:331
+msgid "Detected"
+msgstr "Detectada"
+
+#: includes/admin.php:486
+msgid "Detected network"
+msgstr "Rede detectada"
+
+#: includes/admin.php:338
+msgid "Detection could not be completed for this request."
+msgstr "Não foi possível concluir a detecção nesta requisição."
+
+#: includes/admin.php:489
+msgid "Detection only reports the status; this option is never changed automatically."
+msgstr "A detecção apenas informa o estado; esta opção nunca é alterada automaticamente."
+
+#: includes/admin.php:533
+msgid "Developer"
+msgstr "Desenvolvedor"
+
+#: includes/admin.php:531
+msgid "Development"
+msgstr "Desenvolvimento"
+
+#: includes/admin.php:530
+msgid "Development, environment, support and storage of NIBWOZ hCaptcha."
+msgstr "Desenvolvimento, ambiente, suporte e armazenamento do NIBWOZ hCaptcha."
+
+#: includes/admin.php:408 includes/admin.php:521 includes/admin.php:522
+msgid "Diagnostic log"
+msgstr "Log de diagnóstico"
+
+#: includes/admin.php:408
+msgid "Diagnostic log off"
+msgstr "Log de diagnóstico desligado"
+
+#: includes/admin.php:408
+msgid "Diagnostic log on"
+msgstr "Log de diagnóstico ativo"
+
+#: includes/admin.php:283 includes/admin.php:498
+msgid "Diagnostics"
+msgstr "Diagnóstico"
+
+#: includes/admin.php:394
+msgid "Disabled"
+msgstr "Desativado"
+
+#: includes/admin.php:341
+msgid "Enable trust to use the visitor IP."
+msgstr "Ative a confiança para usar o IP do visitante."
+
+#: includes/admin.php:522
+msgid "Enable while investigating and disable when done."
+msgstr "Ative durante a investigação e desative ao terminar."
+
+#: includes/admin.php:394
+msgid "Enabled"
+msgstr "Ativado"
+
+#: includes/admin.php:456
+msgid "Enables client compatibility with reCAPTCHA integrations."
+msgstr "Habilita a compatibilidade do cliente com integrações reCAPTCHA."
+
+#: includes/admin.php:500
+msgid "Environment"
+msgstr "Ambiente"
+
+#: includes/admin.php:498
+msgid "Environment and status"
+msgstr "Ambiente e estado"
+
+#: includes/admin.php:483
+msgid "Exempt IPs"
+msgstr "IPs dispensados"
+
+#: includes/admin.php:482
+msgid "Exempt logged-in administrators"
+msgstr "Dispensar administradores autenticados"
+
+#: includes/admin.php:227
+msgid "Explicit (requires an integration call)"
+msgstr "Explícito (exige chamada da integração)"
+
+#: includes/admin.php:344
+msgid "Fix header forwarding before enabling trust."
+msgstr "Corrija o repasse de cabeçalhos antes de ativar a confiança."
+
+#: includes/admin.php:538
+msgid "For questions about the plugin or services, use the official company channels."
+msgstr "Para dúvidas sobre o plugin ou os serviços, use os canais oficiais da empresa."
+
+#: includes/admin.php:446 includes/admin.php:447
+msgid "From 0 to 100."
+msgstr "De 0 a 100."
+
+#: includes/admin.php:444
+msgid "From 70 to 130."
+msgstr "De 70 a 130."
+
+#: includes/admin.php:464 includes/admin.php:466 includes/admin.php:467
+msgid "General default"
+msgstr "Padrão geral"
+
+#: includes/admin.php:42
+msgid "Hide secret key"
+msgstr "Ocultar chave secreta"
+
+#: includes/admin.php:278 includes/admin.php:381
+msgid "Home"
+msgstr "Início"
+
+#: includes/admin.php:539
+msgid "Hosting, WordPress, domains, development and technical support."
+msgstr "Hospedagem, WordPress, domínios, desenvolvimento e suporte técnico."
+
+#: includes/admin.php:548
+msgid "I understand that all other settings will be restored; if I uncheck the option above, both keys will also be deleted."
+msgstr "Entendo que todas as demais configurações serão restauradas; se eu desmarcar a opção acima, as duas chaves também serão apagadas."
+
+#: includes/admin.php:484
+msgid "IP/CIDR whitelist (one entry per line)"
+msgstr "Whitelist de IPs/CIDRs (uma entrada por linha)"
+
+#: includes/admin.php:484
+msgid "IPs or ranges entered here do not need to solve the challenge. Add one entry per line."
+msgstr "IPs ou faixas aqui informados não precisam resolver o desafio. Adicione uma entrada por linha."
+
+#: includes/admin.php:384 includes/admin.php:509
+msgid "Incomplete"
+msgstr "Incompletas"
+
+#: includes/admin.php:331
+msgid "Inconclusive"
+msgstr "Inconclusiva"
+
+#: includes/admin.php:530
+msgid "Information"
+msgstr "Informações"
+
+#: includes/admin.php:504
+msgid "Installation"
+msgstr "Instalação"
+
+#: includes/admin.php:535
+msgid "Installed version"
+msgstr "Versão instalada"
+
+#: includes/admin.php:536
+msgid "Interface kit"
+msgstr "Kit de interface"
+
+#: includes/admin.php:124
+msgid "Invalid key. The previous configuration was kept."
+msgstr "Chave inválida. A configuração anterior foi preservada."
+
+#: includes/admin.php:226
+msgid "Invisible"
+msgstr "Invisível"
+
+#: includes/admin.php:547
+msgid "Keep current Site key and Secret key"
+msgstr "Manter Site key e Secret key atuais"
+
+#: includes/admin.php:345
+msgid "Keep trust disabled if this is the normal traffic path."
+msgstr "Mantenha a confiança desativada se este é o caminho normal do tráfego."
+
+#: includes/admin.php:43
+msgid "Key hidden."
+msgstr "Chave ocultada."
+
+#: includes/admin.php:44
+msgid "Key visible."
+msgstr "Chave visível."
+
+#: includes/admin.php:538
+msgid "Knowledge base"
+msgstr "Base de conhecimento"
+
+#: includes/admin.php:449
+msgid "Language"
+msgstr "Idioma"
+
+#: includes/admin.php:233
+msgid "Language (auto, pt-BR)"
+msgstr "Idioma (auto, pt-BR)"
+
+#: includes/admin.php:225
+msgid "Left"
+msgstr "Esquerda"
+
+#: includes/admin.php:513
+msgid "Legacy PHP file"
+msgstr "Arquivo PHP legado"
+
+#: includes/admin.php:223
+msgid "Light"
+msgstr "Claro"
+
+#: includes/admin.php:45
+msgid "Loading saved key…"
+msgstr "Carregando chave salva…"
+
+#: includes/admin.php:389
+msgid "Logged-in administrators exempt"
+msgstr "Administradores autenticados isentos"
+
+#: includes/admin.php:389
+msgid "Logged-in administrators not exempt"
+msgstr "Administradores autenticados não isentos"
+
+#: includes/admin.php:521
+msgid "Logs only the verification context and result, without IPs, tokens or keys."
+msgstr "Registra apenas contexto e resultado da verificação, sem IPs, tokens ou chaves."
+
+#: includes/admin.php:235
+msgid "Mode"
+msgstr "Modo"
+
+#: nibwoz-hcaptcha.php:37
+msgid "NIBWOZ hCaptcha: conflict with an MU plugin or another hCaptcha plugin. Protection in this version is suspended."
+msgstr "NIBWOZ hCaptcha: conflito com MU Plugin ou outro plugin hCaptcha. A proteção desta versão está suspensa."
+
+#: includes/admin.php:68
+msgid "NIBWOZ hCaptcha: set both keys under Tools → NWZ hCaptcha. Protected forms reject submissions until both keys are set."
+msgstr "NIBWOZ hCaptcha: configure as duas chaves em Ferramentas → NWZ hCaptcha. Formulários protegidos recusam envios enquanto faltarem chaves."
+
+#: includes/admin.php:66
+msgid "NIBWOZ hCaptcha: the old PHP configuration file is still in use. Review and save under Tools → NWZ hCaptcha before removing the file."
+msgstr "NIBWOZ hCaptcha: a configuração PHP antiga ainda está em uso. Revise e salve em Ferramentas → NWZ hCaptcha antes de remover o arquivo."
+
+#: includes/admin.php:540
+msgid "NIBWOZ privacy policy"
+msgstr "Política de privacidade da NIBWOZ"
+
+#: includes/admin.php:539
+msgid "NIBWOZ website"
+msgstr "Site da NIBWOZ"
+
+#: includes/admin.php:386
+msgid "Native WordPress and WooCommerce forms."
+msgstr "Formulários nativos do WordPress e do WooCommerce."
+
+#: includes/admin.php:404 includes/admin.php:515
+msgid "Network"
+msgstr "Rede"
+
+#: includes/admin.php:224
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/admin.php:420
+msgid "Not configured"
+msgstr "Não configurada"
+
+#: includes/admin.php:331
+msgid "Not detected"
+msgstr "Não detectada"
+
+#: includes/admin.php:513
+msgid "Not present"
+msgstr "Ausente"
+
+#: includes/admin.php:544
+msgid "Off is the safe default: deactivating or deleting the plugin keeps the data for a possible reinstall. The legacy PHP file and the temporary log are not removed."
+msgstr "Desligado é o padrão seguro: desativar ou excluir o plugin preserva os dados para uma possível reinstalação. O arquivo PHP legado e o log temporário não são removidos."
+
+#: includes/admin.php:494
+msgid "One proxy IP or CIDR per line; never enter the visitor IP."
+msgstr "Um IP ou CIDR do proxy por linha; nunca informe o IP do visitante."
+
+#: includes/admin.php:538
+msgid "Open a ticket"
+msgstr "Abrir chamado"
+
+#: includes/admin.php:435
+msgid "Other contexts from custom adapters"
+msgstr "Outros contextos de adaptadores próprios"
+
+#: includes/admin.php:492
+msgid "Own proxy"
+msgstr "Proxy próprio"
+
+#: includes/admin.php:457
+msgid "Per-form adjustments"
+msgstr "Ajustes por formulário"
+
+#: includes/admin.php:513
+msgid "Present"
+msgstr "Presente"
+
+#. 1: enabled forms, 2: total forms.
+#: includes/admin.php:280 includes/admin.php:386 includes/admin.php:391 includes/admin.php:424 includes/admin.php:511
+msgid "Protected forms"
+msgstr "Formulários protegidos"
+
+#: includes/admin.php:382
+msgid "Protected forms reject submissions until both keys are set."
+msgstr "Os formulários protegidos recusam envios até configurar as duas chaves."
+
+#: includes/admin.php:507
+msgid "Protection"
+msgstr "Proteção"
+
+#: includes/admin.php:473
+msgid "Protection and access"
+msgstr "Proteção e acesso"
+
+#: includes/admin.php:418
+msgid "Public key shown in the widget."
+msgstr "Chave pública exibida no widget."
+
+#: includes/admin.php:498
+msgid "Read-only checks of this installation. Nothing here contacts external services."
+msgstr "Verificações somente leitura desta instalação. Nada aqui contata serviços externos."
+
+#: includes/admin.php:235
+msgid "Rendering"
+msgstr "Renderização"
+
+#: includes/admin.php:505
+msgid "Requirements"
+msgstr "Requisitos"
+
+#: includes/admin.php:430
+msgid "Requires the challenge on this form, except for configured exemptions."
+msgstr "Exige o desafio neste formulário, salvo as isenções configuradas."
+
+#: includes/admin.php:235
+msgid "Reset on expiry"
+msgstr "Reiniciar ao expirar"
+
+#: includes/admin.php:454
+msgid "Resets the challenge when the token expires."
+msgstr "Reinicia o desafio quando o token expira."
+
+#: includes/admin.php:545 includes/admin.php:549
+msgid "Restore default settings"
+msgstr "Restaurar configuração padrão"
+
+#: includes/admin.php:545
+msgid "Restores forms, appearance, security, network, whitelist, diagnostics and the uninstall preference."
+msgstr "Restaura formulários, aparência, segurança, rede, whitelist, diagnóstico e a preferência de desinstalação."
+
+#: includes/admin.php:331
+msgid "Review proxy"
+msgstr "Revisar proxy"
+
+#: includes/admin.php:331
+msgid "Review server"
+msgstr "Revisar servidor"
+
+#: includes/admin.php:343
+msgid "Review the proxy chain before enabling trust."
+msgstr "Revise a cadeia de proxies antes de ativar a confiança."
+
+#: includes/admin.php:225
+msgid "Right"
+msgstr "Direita"
+
+#: includes/admin.php:544
+msgid "Save preference"
+msgstr "Salvar preferência"
+
+#: includes/admin.php:374
+msgid "Save settings"
+msgstr "Salvar configurações"
+
+#: includes/admin.php:46
+msgid "Saved key visible. Click again to hide."
+msgstr "Chave salva visível. Clique novamente para ocultar."
+
+#: includes/admin.php:466
+msgid "Scale (%)"
+msgstr "Escala (%)"
+
+#: includes/admin.php:420
+msgid "Secret key (leave empty to keep the current one)"
+msgstr "Secret key (em branco: manter a atual)"
+
+#: includes/admin.php:282 includes/admin.php:473
+msgid "Security and whitelist"
+msgstr "Segurança e whitelist"
+
+#: includes/admin.php:390 includes/admin.php:512
+msgid "Service failure"
+msgstr "Falha do serviço"
+
+#: includes/admin.php:384
+msgid "Set both keys to protect the forms."
+msgstr "Configure as duas chaves para proteger os formulários."
+
+#: includes/admin.php:56
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/admin.php:540
+msgid "Settings are stored in this WordPress database; the secret key is not displayed in the panel."
+msgstr "As configurações ficam no banco de dados deste WordPress; a chave secreta não é exibida no painel."
+
+#: includes/admin.php:318
+msgid "Settings restored. Both keys were deleted."
+msgstr "Configurações restauradas. As duas chaves foram apagadas."
+
+#: includes/admin.php:317
+msgid "Settings restored. The keys were kept."
+msgstr "Configurações restauradas. As chaves foram mantidas."
+
+#: includes/admin.php:315
+msgid "Settings saved."
+msgstr "Configurações salvas."
+
+#: includes/admin.php:236
+msgid "Show errors"
+msgstr "Exibir erros"
+
+#: includes/admin.php:41 includes/admin.php:420
+msgid "Show secret key"
+msgstr "Mostrar chave secreta"
+
+#: includes/admin.php:455
+msgid "Shows challenge error messages to the visitor."
+msgstr "Exibe mensagens de erro do desafio para o visitante."
+
+#: includes/admin.php:504
+msgid "Single site"
+msgstr "Site único"
+
+#: includes/admin.php:418
+msgid "Site key"
+msgstr "Site key"
+
+#: includes/admin.php:384
+msgid "Site key and Secret key are set."
+msgstr "Site key e Secret key preenchidas."
+
+#: includes/admin.php:233
+msgid "Size"
+msgstr "Tamanho"
+
+#: includes/admin.php:446
+msgid "Space above"
+msgstr "Espaço acima"
+
+#: includes/admin.php:234
+msgid "Space above (px)"
+msgstr "Espaço acima (px)"
+
+#: includes/admin.php:447
+msgid "Space below"
+msgstr "Espaço abaixo"
+
+#: includes/admin.php:234
+msgid "Space below (px)"
+msgstr "Espaço abaixo (px)"
+
+#: includes/admin.php:540
+msgid "Storage and connections"
+msgstr "Armazenamento e conexões"
+
+#: includes/admin.php:538
+msgid "Support and documentation"
+msgstr "Suporte e documentação"
+
+#: includes/admin.php:481
+msgid "The IP shown uses the proxy options already saved. Quick add saves only this IP immediately; unsaved changes in the other fields are not applied."
+msgstr "O IP exibido usa as opções de proxy já salvas. A inclusão rápida grava somente esse IP imediatamente; alterações ainda não salvas nos demais campos não são aplicadas."
+
+#: includes/admin.php:342
+msgid "The IP was already restored by the server; additional trust is not needed."
+msgstr "O IP já foi restaurado pelo servidor; confiança adicional não é necessária."
+
+#: includes/admin.php:321
+msgid "The current IP is already covered by the whitelist."
+msgstr "O IP atual já está coberto pela whitelist."
+
+#: includes/admin.php:540
+msgid "The diagnostic log, if enabled, is kept in the server temporary folder. Uninstalling does not remove the log or the legacy PHP file."
+msgstr "O log de diagnóstico, se ativado, fica na pasta temporária do servidor. A desinstalação não remove o log nem o arquivo PHP legado."
+
+#: includes/admin.php:336
+msgid "The origin is Cloudflare, but the header with the visitor IP is missing or invalid."
+msgstr "A origem é da Cloudflare, porém o cabeçalho com o IP do visitante está ausente ou inválido."
+
+#: includes/admin.php:540
+msgid "The plugin loads the hCaptcha script and sends the token to the hCaptcha API for validation. It does not send settings or telemetry to NIBWOZ."
+msgstr "O plugin carrega o script do hCaptcha e envia o token para validação na API do hCaptcha. Não envia configurações ou telemetria à NIBWOZ."
+
+#: includes/admin.php:333
+msgid "The request came through an official Cloudflare range and carried a valid visitor IP."
+msgstr "A requisição chegou por uma faixa oficial da Cloudflare e trouxe um IP de visitante válido."
+
+#: includes/admin.php:420
+msgid "The saved key is loaded only when you use the show button."
+msgstr "A chave salva é carregada somente quando você usa o botão de mostrar."
+
+#: includes/admin.php:421
+msgid "The show button requires administrator permission. Hiding a retrieved key clears the field; when empty, the saved key is kept."
+msgstr "O botão de mostrar exige permissão de administrador. Ocultar a chave recuperada limpa o campo; em branco, a chave salva é mantida."
+
+#: includes/admin.php:327
+msgid "The values shown come from the old PHP file. Saving stores them in the database. After confirming everything works, remove the old file."
+msgstr "Os valores exibidos vêm do arquivo PHP antigo. Ao salvar, passam a ser armazenados no banco. Depois de verificar o funcionamento, remova o arquivo antigo."
+
+#: includes/admin.php:233
+msgid "Theme"
+msgstr "Tema"
+
+#: includes/admin.php:468
+msgid "Theme, language, spacing and behavior follow the general settings."
+msgstr "Tema, idioma, espaçamento e comportamento seguem os ajustes gerais."
+
+#: includes/admin.php:335
+msgid "There are signs of Cloudflare, but another proxy sits between it and the server."
+msgstr "Há sinais da Cloudflare, mas outro proxy aparece entre ela e o servidor."
+
+#: includes/admin.php:375
+msgid "There are unsaved changes on this screen."
+msgstr "Há alterações não salvas nesta tela."
+
+#: includes/admin.php:337
+msgid "This request did not show a verifiable Cloudflare origin."
+msgstr "Esta requisição não apresentou uma origem Cloudflare verificável."
+
+#: includes/admin.php:381
+msgid "This summary shows the currently saved values. Changes made in the sections appear after saving."
+msgstr "Este resumo mostra os valores atualmente salvos. Alterações feitas nas seções aparecem após salvar."
+
+#: includes/admin.php:237
+msgid "Trust Cloudflare"
+msgstr "Confiar em Cloudflare"
+
+#: includes/admin.php:238
+msgid "Trust X-Forwarded-For"
+msgstr "Confiar em X-Forwarded-For"
+
+#: includes/admin.php:341
+msgid "Trust is enabled and the visitor IP can be used."
+msgstr "A confiança está ativa e o IP do visitante pode ser usado."
+
+#: includes/admin.php:489
+msgid "Trust the IP reported by Cloudflare"
+msgstr "Confiar no IP informado pela Cloudflare"
+
+#: includes/admin.php:238
+msgid "Trusted proxies (IP/CIDR)"
+msgstr "Proxies confiáveis (IP/CIDR)"
+
+#: includes/admin.php:475 includes/admin.php:518
+msgid "Unavailable"
+msgstr "Indisponível"
+
+#: includes/admin.php:541
+msgid "Uninstall"
+msgstr "Desinstalação"
+
+#: includes/admin.php:324
+msgid "Uninstall preference saved."
+msgstr "Preferência de desinstalação salva."
+
+#: includes/admin.php:374
+msgid "Unsaved changes"
+msgstr "Alterações não salvas"
+
+#: includes/admin.php:449
+msgid "Use auto to follow the visitor, or a code such as pt-BR."
+msgstr "Use auto para seguir o visitante ou um código como pt-BR."
+
+#: includes/admin.php:492
+msgid "Use only for Nginx, HAProxy or another proxy under your control."
+msgstr "Use somente para Nginx, HAProxy ou outro proxy sob seu controle."
+
+#: includes/admin.php:416
+msgid "Use the keys from the same site in hCaptcha. Leave the secret key empty to keep the current one."
+msgstr "Use as chaves do mesmo site no hCaptcha. Deixe a chave secreta vazia para manter a atual."
+
+#: includes/admin.php:462
+msgid "Using the general default"
+msgstr "Usando o padrão geral"
+
+#: includes/integrations.php:65
+msgid "Verification failed"
+msgstr "Falha na verificação"
+
+#: includes/admin.php:490
+msgid "Verification failure"
+msgstr "Falha na verificação"
+
+#. %s: plugin version number.
+#: includes/admin.php:370
+#, php-format
+msgid "Version %s"
+msgstr "Versão %s"
+
+#: includes/admin.php:226
+msgid "Visible"
+msgstr "Visível"
+
+#: includes/admin.php:482
+msgid "When enabled, administrators who are already logged in skip the challenge."
+msgstr "Quando ativada, esta opção dispensa do desafio os administradores que já fizeram login."
+
+#: includes/admin.php:543
+msgid "When enabled, deleting the plugin from the dashboard removes all settings from the database, including the Site key and Secret key."
+msgstr "Quando ativado, excluir o plugin pelo painel remove do banco todas as configurações, incluindo Site key e Secret key."
+
+#. %d: number of exempt IPs or CIDR ranges.
+#: includes/admin.php:389 includes/admin.php:519
+msgid "Whitelist"
+msgstr "Whitelist"
+
+#: includes/admin.php:396
+msgid "Widget"
+msgstr "Widget"
+
+#: includes/admin.php:439
+msgid "Widget and forms"
+msgstr "Widget e formulários"
+
+#: includes/admin.php:444
+msgid "Widget scale"
+msgstr "Escala do widget"
+
+#: includes/admin.php:233
+msgid "Widget scale (%)"
+msgstr "Escala do widget (%)"
+
+#: includes/admin.php:77
+msgid "WooCommerce: Classic checkout"
+msgstr "WooCommerce: checkout clássico"
+
+#: includes/admin.php:75
+msgid "WooCommerce: Login"
+msgstr "WooCommerce: login"
+
+#: includes/admin.php:76
+msgid "WooCommerce: Lost password"
+msgstr "WooCommerce: recuperar senha"
+
+#: includes/admin.php:76
+msgid "WooCommerce: Registration"
+msgstr "WooCommerce: cadastro"
+
+#: includes/admin.php:77
+msgid "WooCommerce: Reset password"
+msgstr "WooCommerce: redefinir senha"
+
+#: includes/admin.php:505
+msgid "WordPress 7.0 or later, PHP 8.3 or later"
+msgstr "WordPress 7.0 ou superior, PHP 8.3 ou superior"
+
+#: includes/admin.php:75
+msgid "WordPress: Comments"
+msgstr "WordPress: comentários"
+
+#: includes/admin.php:73
+msgid "WordPress: Login"
+msgstr "WordPress: login"
+
+#: includes/admin.php:74
+msgid "WordPress: Lost password"
+msgstr "WordPress: recuperar senha"
+
+#: includes/admin.php:73
+msgid "WordPress: Registration"
+msgstr "WordPress: cadastro"
+
+#: includes/admin.php:74
+msgid "WordPress: Reset password"
+msgstr "WordPress: redefinir senha"
+
+#: includes/admin.php:407
+msgid "X-Forwarded-For not trusted"
+msgstr "X-Forwarded-For não confiável"
+
+#: includes/admin.php:407
+msgid "X-Forwarded-For trusted"
+msgstr "X-Forwarded-For confiável"
+
+#: includes/admin.php:474
+msgid "Your access and exemptions"
+msgstr "Seu acesso e isenções"
+
+#: includes/render.php:30
+msgid "hCaptcha is not configured. Contact the site administrator."
+msgstr "hCaptcha não configurado. Contate o administrador do site."
+
+#: includes/admin.php:417
+msgid "hCaptcha keys"
+msgstr "Chaves do hCaptcha"
+
+#: includes/admin.php:372
+msgid "hCaptcha sections"
+msgstr "Seções do hCaptcha"
+
+#: includes/admin.php:390
+msgid "hCaptcha service failure or invalid response: form allowed"
+msgstr "Falha ou resposta inválida do serviço hCaptcha: formulário permitido"
+
+#: includes/admin.php:390
+msgid "hCaptcha service failure or invalid response: form blocked"
+msgstr "Falha ou resposta inválida do serviço hCaptcha: formulário bloqueado"
+
+#: includes/render.php:24
+msgid "hCaptcha verification failed. Please try again."
+msgstr "A verificação hCaptcha falhou. Tente novamente."
+
+#: includes/admin.php:236
+msgid "reCAPTCHA compatibility"
+msgstr "Compatibilidade reCAPTCHA"
+
+#: includes/admin.php:389
+#, php-format
+msgid "%d exempt IP/CIDR"
+msgid_plural "%d exempt IPs/CIDRs"
+msgstr[0] "%d IP/CIDR isento"
+msgstr[1] "%d IPs/CIDRs isentos"
+
+#. %d: number of per-form overrides.
+#: includes/admin.php:462
+#, php-format
+msgid "%d override"
+msgid_plural "%d overrides"
+msgstr[0] "%d ajuste"
+msgstr[1] "%d ajustes"

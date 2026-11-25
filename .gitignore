@@ -1,0 +1,41 @@
+# NIBWOZ hCaptcha — o GitHub recebe só o que o plugin precisa para funcionar
+# (o mesmo conteúdo do pacote de instalação nibwoz-hcaptcha.zip).
+# Testes, documentação interna e pacotes gerados ficam só nesta pasta.
+
+# Uso interno: testes e documentação de homologação em português
+/tests/
+/README.md
+/MATRIZ-DE-HOMOLOGACAO.md
+
+# Pacotes gerados a cada versão (nibwoz-hcaptcha.zip e nibwoz-hcaptcha-fonte.zip)
+*.zip
+
+# Configuração legada com chaves: nunca versionar
+nibwoz-hcaptcha-config.php
+
+# Dependências e ferramentas locais
+/node_modules/
+/vendor/
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Variáveis de ambiente e credenciais locais
+.env
+.env.*
+
+# Sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.code-workspace

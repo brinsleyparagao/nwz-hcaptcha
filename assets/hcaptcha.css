@@ -1,0 +1,8 @@
+/* Versão 1.2.2: escala proporcional sem forçar largura no plugin de login. */
+.nibwoz-hcaptcha{clear:both;max-width:100%;margin:var(--nibwoz-top,16px) 0 var(--nibwoz-bottom,20px);box-sizing:border-box}
+.nibwoz-hcaptcha-frame{position:relative}
+.nibwoz-hcaptcha-widget{transform-origin:top left}
+.nibwoz-hcaptcha[data-align="center"] .nibwoz-hcaptcha-frame{margin-left:auto;margin-right:auto}
+.nibwoz-hcaptcha[data-align="right"] .nibwoz-hcaptcha-frame{margin-left:auto}
+.nibwoz-hcaptcha[data-align="left"] .nibwoz-hcaptcha-frame{margin-right:auto}
+.nibwoz-hcaptcha-error:not(:empty){display:block;color:#b32d2e;margin-top:8px}
